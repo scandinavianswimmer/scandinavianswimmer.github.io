@@ -1,4 +1,4 @@
-# Looks League Legal Site Bundle
+# DATEMAXXING Legal Site Bundle
 
 Status: draft / founder-reviewed / public-host pending
 Updated: 2026-06-26

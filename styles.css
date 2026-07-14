@@ -5,7 +5,7 @@
   --muted: #625f58;
   --line: #ded8cd;
   --panel: #ffffff;
-  --accent: #b84a2f;
+  --accent: #e5481d;
   --accent-ink: #ffffff;
   --max: 880px;
 }
@@ -17,7 +17,7 @@
     --muted: #beb7aa;
     --line: #3a352f;
     --panel: #1b1a18;
-    --accent: #e46f4d;
+    --accent: #ff6a3d;
     --accent-ink: #160b07;
   }
 }
@@ -69,8 +69,8 @@ header {
   height: 32px;
   place-items: center;
   border-radius: 6px;
-  background: var(--accent);
-  color: var(--accent-ink);
+  background: var(--ink);
+  color: var(--accent);
   font-size: 15px;
 }
 

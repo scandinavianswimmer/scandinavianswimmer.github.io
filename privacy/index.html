@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Privacy Policy | Looks League</title>
+    <title>Privacy Policy | DATEMAXXING</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header>
-      <a class="brand" href="/"><span class="mark">LL</span><span>Looks League</span></a>
+      <a class="brand" href="/"><span class="mark">D×</span><span>DATEMAXXING</span></a>
       <nav>
         <a href="/terms/">Terms</a>
         <a href="/privacy/">Privacy</a>
@@ -20,7 +20,7 @@
       <p class="meta">Last updated: June 26, 2026</p>
       <h1>Privacy Policy</h1>
       <p class="lede">
-        Looks League uses account data, live capture, private AI scoring, and
+        DATEMAXXING uses account data, live capture, private AI scoring, and
         safety systems to run an 18+ dating app. This page explains the data we
         collect, why we use it, who processes it, and how users can control it.
       </p>
@@ -28,7 +28,7 @@
       <h2>1. Information We Collect</h2>
       <ul>
         <li>Account information: name, email, phone number, date of birth, username, and preferences.</li>
-        <li>Biometric and capture data: live face photo, capture metadata, facial geometry or templates, liveness status, duplicate/match status, age-estimation status, and private aesthetics score/report.</li>
+        <li>Capture and scoring data: live face photo, capture metadata, and your private aesthetics score and report. The current v1 service does not create or retain a face template or facial embedding.</li>
         <li>Profile content: profile photos, prompts, answers, and profile settings.</li>
         <li>Messages: chat text exchanged with matches.</li>
         <li>Location: coarse location used for geographically relevant matches.</li>
@@ -40,7 +40,7 @@
       <ul>
         <li>Create and secure accounts.</li>
         <li>Confirm users are 18+ and eligible to use the service.</li>
-        <li>Run liveness, duplicate-account, and capture-verification checks.</li>
+        <li>Confirm that a scoring photo was taken with the in-app camera.</li>
         <li>Generate private, self-only aesthetics scores and score reports.</li>
         <li>Enforce in-range matching, likes, Roses, reports, blocks, and chat.</li>
         <li>Moderate messages and reports for user safety.</li>
@@ -63,17 +63,12 @@
             <td>Authentication, database, storage, Edge Functions, privacy/export/deletion workflows.</td>
           </tr>
           <tr>
-            <td>FaceTec</td>
-            <td>Liveness/session metadata, external database reference ID, live-capture verification result, duplicate/match signals, and age-estimation status.</td>
-            <td>Liveness verification, duplicate-account prevention, age-estimation support, and capture verification.</td>
-          </tr>
-          <tr>
-            <td>Anthropic Claude vision model <code>claude-opus-4-8</code></td>
-            <td>Face photograph submitted by the server-side scoring proxy after authentication, age gate, biometric consent, and capture-verification checks.</td>
+            <td>Anthropic Claude <code>claude-sonnet-4-6</code></td>
+            <td>Live face photograph submitted by our server after authentication, age gate, consent, and in-app camera capture.</td>
             <td>Private aesthetics score and report computation.</td>
           </tr>
           <tr>
-            <td>OpenAI Moderation <code>omni-moderation-latest</code></td>
+            <td>Anthropic Claude <code>claude-haiku-4-5-20251001</code></td>
             <td>Outgoing chat message text.</td>
             <td>Pre-publication safety moderation before messages are posted.</td>
           </tr>
@@ -85,14 +80,14 @@
         </tbody>
       </table>
       <p>
-        We do not sell biometric data. Providers may not use Looks League user
+        We do not sell biometric data. Providers may not use DATEMAXXING user
         data for advertising, resale, or any purpose outside the contracted
         service.
       </p>
 
       <h2>4. Automated Scoring</h2>
       <p>
-        Looks League uses an AI-assisted system to compute a private aesthetics
+        DATEMAXXING uses an AI-assisted system to compute a private aesthetics
         score from a face photograph. The score is visible only to the user and
         is used for score reports, coaching, and matching eligibility. It is not
         shown on public profiles and is not a medical, psychological, credit,
@@ -102,7 +97,7 @@
       <h2>5. Retention</h2>
       <ul>
         <li>Raw face capture: designed to be destroyed within 24 hours after scoring completes.</li>
-        <li>Biometric template or facial embedding: deleted on account deletion or no later than three years after last account activity, whichever is earlier.</li>
+        <li>Face templates or facial embeddings: the current v1 service does not create or retain them.</li>
         <li>Account, profile, messages, and match records: retained while the account is active, then deleted or de-identified according to deletion workflow and legal obligations.</li>
         <li>Safety, fraud, and legal records: retained as needed to protect users, investigate abuse, and comply with law.</li>
       </ul>
@@ -117,7 +112,7 @@
 
       <h2>7. Children</h2>
       <p>
-        Looks League is only for users 18 or older. We do not knowingly collect
+        DATEMAXXING is only for users 18 or older. We do not knowingly collect
         personal information from anyone under 18. If we learn that an underage
         user created an account, we will suspend the account and delete
         associated data as required.
@@ -131,7 +126,7 @@
       </p>
     </main>
     <footer>
-      <p>&copy; 2026 Looks League. See also <a href="/terms/">Terms</a> and <a href="/child-safety/">Child Safety</a>.</p>
+      <p>&copy; 2026 DATEMAXXING. See also <a href="/terms/">Terms</a> and <a href="/child-safety/">Child Safety</a>.</p>
     </footer>
   </body>
 </html>
